@@ -16377,27 +16377,30 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><img src="../assets/school_logo.png" alt=""></p>
-<h1 id="Lecture-0:-Welcome-to-CS-101!">Lecture 0: Welcome to CS-101!<a class="anchor-link" href="#Lecture-0:-Welcome-to-CS-101!">&#182;</a></h1>
+<h1 id="Lecture-0:-Welcome-to-CS-101!">Lecture 0: Welcome to CS-101!<a class="anchor-link" href="#Lecture-0:-Welcome-to-CS-101!">&#182;</a></h1><ul>
+<li>@Author: Kai Bernardini</li>
+</ul>
+
 </div>
 </div>
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Why-Computer-Science?">Why Computer Science?<a class="anchor-link" href="#Why-Computer-Science?">&#182;</a></h1><ul>
-<li>Financial motivation: There are many lucrative careers in computer science...<ul>
-<li>Compensation and beneffits are extremely competitive.</li>
+<h1 id="Why-Computer-Science?">Why Computer Science?<a class="anchor-link" href="#Why-Computer-Science?">&#182;</a></h1><h2 id="Financial-motivation:-There-are-many-lucrative-careers-in-computer-science...">Financial motivation: There are many lucrative careers in computer science...<a class="anchor-link" href="#Financial-motivation:-There-are-many-lucrative-careers-in-computer-science...">&#182;</a></h2><ul>
 <li>The payscale range of income for a Software Engineer is between $\$51,521$ and  $\$118,417$</li>
-<li>The payscale range of income for a Machine Learning Engineer is between $\$93,873$ and $ \$129,514$</li>
 <li>"Not only does computer science provide every student foundational knowledge, it also leads to the highest-paying, fastest-growing jobs in the U.S. economy. There are currently over 500,000 open computing jobs, in every sector, from manufacturing to banking, from agriculture to health care, but only 50,000 computer science graduates a year. " (Computer Science Education Coalition)</li>
-<li>Note that for specialized computer scientists such as cloud engineers, the expected income is in many cases significantly higher. EG Cloud Engineers starting salary at Amazon is estimated to be over \$100,000k a year</li>
-<li>Computer Science enjoys a great deal of freedom in the work place. </li>
+</ul>
+<h2 id="Intelectual-Motiviation:">Intelectual Motiviation:<a class="anchor-link" href="#Intelectual-Motiviation:">&#182;</a></h2><ul>
+<li>There is no shortage of interesting and complex problems to solve.<ul>
+<li>I <em>literally</em> hack computers for a living (legally, and with permission of course!). </li>
 </ul>
 </li>
-<li>Intelectual Motiviation: There is no shortage of interesting and complex problems to solve...  <ul>
-<li>The act of developing code from the ground up helps hone esential problem solving skills. </li>
-<li>A degree in computer science grants you the freedom to work in almost any field.</li>
-<li>Seemingly endless oppurtunities for creative work</li>
+<li>The act of developing code from the ground up helps hone essential problem solving skills. </li>
+<li>A degree in computer science grants you the freedom to work in almost any field. EVERYBODY uses data, computing and CS.</li>
+<li>Contrary to what you might believe, coding is a creative process. </li>
+<li>For those of you who are more artistically inclined, almost all visual mediums, music production and graphic design is done using computer science.<ul>
+<li>When I say CS is for everybody, I mean everybody. </li>
 </ul>
 </li>
 </ul>
@@ -16471,8 +16474,9 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Course-Difficulty">Course Difficulty<a class="anchor-link" href="#Course-Difficulty">&#182;</a></h1><ul>
-<li>Coding is difficult, and computer science requires think about problems in a way that might not come naturally so some of you, and that is OK! </li>
-<li>You will get stuck on problems, and you will eventually become "comfortable being uncomfortable"
+<li>Coding is difficult, and computer science requires you to think about problems in a way that might not come naturally, and that is OK! </li>
+<li>You will get stuck on problems, and you will eventually become "comfortable being uncomfortable"</li>
+<li>Wise words from Jake the Dog
 <img src="http://www.quickmeme.com/img/fd/fd3d970c53aa6ae1dfdda0c2aa7c344c883bf5455bf924fdb6e3d8b1f4983385.jpg" alt="."></li>
 </ul>
 
@@ -16483,10 +16487,12 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Diving-in!">Diving in!<a class="anchor-link" href="#Diving-in!">&#182;</a></h1><ul>
-<li>Unless otherwise specified, all of the coding you do in this course will be done using google Colab. <ul>
-<li>You are of course allowed (and even encouraged!) to build out your own development environment. However, all submissions for homework need to be submitted using Google Drive and Google Colab. </li>
+<li>Unless otherwise specified, all of the coding you do in this course will be done using  either google Colab or Repl. <ul>
+<li>You are of course allowed (and even encouraged!) to build out your own development environment. However, all submissions for homework need to be submitted in the proper format.</li>
 </ul>
 </li>
+</ul>
+<h2 id="Getting-Started-with-Google-Colab">Getting Started with Google Colab<a class="anchor-link" href="#Getting-Started-with-Google-Colab">&#182;</a></h2><ul>
 <li>Sign into your School Google Account and go to <a href="https://colab.research.google.com/">https://colab.research.google.com/</a></li>
 <li>Go to "File" $\rightarrow$ "New Python 3 Notebook"</li>
 <li>You should see something that looks like <img src="../Images/lecture_0/Google_colab_home.png" alt="."></li>
@@ -16568,15 +16574,101 @@ a.anchor-link {
 </div>
 </div>
 </div></section></section><section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># All of these are Valid </span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello, world!&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello, world!&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&quot;&quot;Hello, world!&quot;&quot;&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Hello, world!
+Hello, world!
+Hello, world!
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Quick-Remark-on-Syntax">Quick Remark on Syntax<a class="anchor-link" href="#Quick-Remark-on-Syntax">&#182;</a></h1><ul>
+<li>Python uses "white space" syntax</li>
+<li>We will talk more about what this means later, but for now, keep in mind that each line is parsed based using new lines, spaces, tabs...etc</li>
+<li>So in order to execute multiple calls to the <code>print()</code> function, we need to separate them by new lines</li>
+<li>Alternatively, you <em>could</em> use a semicolon but this is uncommon</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Printing line number one&quot;</span><span class="p">);</span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Printing line number two&quot;</span><span class="p">);</span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Printing line number three&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Printing line number one
+Printing line number two
+Printing line number three
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Writing-a-Standalone-Python-Program">Writing a Standalone Python Program<a class="anchor-link" href="#Writing-a-Standalone-Python-Program">&#182;</a></h1><ul>
 <li>While the Jupyter notebook environment is a great tool for developing code, sometimes the ultimate goal is to eventually run it as a standalone python program. </li>
-<li>To do this, we need to make a file to store out code that ends in <code>.py</code>. </li>
+<li>To do this, we need to make a file to store our code. For python, the convention is to end the filename in <code>.py</code>. </li>
 <li>For example, we could make a python file called <code>hello.py</code> </li>
 <li>We can either copy and past code from the notebook, or we can download as .py file by going to "file" $\rightarrow$ download .py</li>
-<li>Once we have the .py file, we can execute it!</li>
+<li>Once we have the .py file, we can execute it using the python interpreter.<ul>
+<li>Note that those of you on Chromebooks need to upload your  .py file to an environment that has the python interpreter installed.</li>
+<li>In this class, we will be using Repl.it</li>
+</ul>
+</li>
 </ul>
 
 </div>
@@ -16597,15 +16689,20 @@ a.anchor-link {
 
 </div>
 </div>
-</div>
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Executing-Python">Executing Python<a class="anchor-link" href="#Executing-Python">&#182;</a></h1><ul>
-<li>Note that python is an "interpreted" language meaning we do not need to compile it-- we just pass the human readable text to the python interpreter and it handles everything else!</li>
+<li>Note that python is an "interpreted" language meaning we do not need to compile it-- we just pass the human readable text to the python interpreter and it handles everything else!<ul>
+<li>In particular, the computer doesn't <em>understand</em> python syntax the way we do-- it needs something to convert the human readable text into human unreadable machine code that can then be executed by the Operating System.</li>
+<li>We use High level languages like python because writing machine code at scale is insanely difficult, </li>
+<li>We will talk more about <em>abstraction</em> later, but it is a fundamental idea in Computer Science</li>
+</ul>
+</li>
 <li>We can play around with the  interactive interpreter using repl or by executing commands in notebook cells. </li>
 <li>Try it out for yourself below! (note if the next slide doesn't load the interactive program, click this link: <a href="https://repl.it/@KaiBernardini/helloworld">https://repl.it/@KaiBernardini/helloworld</a></li>
-<li>To save files to this site, you need to make a free account. Click sign in with Google and use your School email. </li>
+<li>To save files to this site, you need to make a free account. Click sign in with Google and use your <strong>School email</strong>. </li>
 </ul>
 
 </div>
@@ -16644,7 +16741,7 @@ a.anchor-link {
 </div>
 </div>
 
-</div>
+</div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[17]:</div>
@@ -16678,16 +16775,207 @@ a.anchor-link {
 </div>
 </div>
 
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Executing-Python">Executing Python<a class="anchor-link" href="#Executing-Python">&#182;</a></h1><ul>
+<li>Multi line print statements <a href="https://repl.it/@KaiBernardini/Hellos">https://repl.it/@KaiBernardini/Hellos</a></li>
+<li>You can also interact directly with the python interactive shell. </li>
+</ul>
+
 </div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Integers">Integers<a class="anchor-link" href="#Integers">&#182;</a></h1><ul>
+<li>The set of integers, denoted mathematically as $\mathbb{Z}$, is the collection of all positive and negative whole numbers. </li>
+<li>In particular, $$\mathbb{Z} := \{...,-3,-2,-1,0,1,2,3,...\}$$<ul>
+<li>Note: this notation is imprecise, but the important thing is we have an intuitive understanding of what an integer is.</li>
+</ul>
+</li>
+<li>In python, integers are implemented in the integer class (<code>int</code>). Unlike the $\mathbb{Z}$ or $\mathbb{R}$ which has no maximum, computers have finite memory and as a result are bounded. Later in the course we will talk about precision, overflow and underflow. </li>
+<li>As usual, we can add, subtract, multiply, divide and exponentiate integers as we would on paper<ul>
+<li>Example: We know that $2+2=4$ but we can also have python give us the answer by running $2+2$</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Real-Numbers">Real Numbers<a class="anchor-link" href="#Real-Numbers">&#182;</a></h1><ul>
+<li>The set of real numbers, denoted mathematically as $\mathbb{R}$, is a bit tricky to define rigorously, but can be thought of as the collection of all decimal sequences.</li>
+<li>This includes the integers, the rationals, and <strong>irrational numbers</strong>. </li>
+<li>Of course, computers are finite. We can't possibly represent infinite decimals with full precision.<ul>
+<li>More on this later!</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Operators-on-$\mathbb{Z}$-and--$\mathbb{R}$">Operators on $\mathbb{Z}$ and  $\mathbb{R}$<a class="anchor-link" href="#Operators-on-$\mathbb{Z}$-and--$\mathbb{R}$">&#182;</a></h1><ul>
+<li>Addition $+$<ul>
+<li>Example: <code>2+2 = 4</code></li>
+</ul>
+</li>
+<li>Subtraction $-$<ul>
+<li>Example: <code>3-1=2</code></li>
+</ul>
+</li>
+<li>Multiplication $*$<ul>
+<li><code>3*3=9</code></li>
+</ul>
+</li>
+<li>Division $/$<ul>
+<li>Example: <code>7/2=3.5}</code></li>
+</ul>
+</li>
+<li>Integer Division $//$ (division but you drop the remainder) <ul>
+<li>Note that integer division always rounds to closest non-zero value
+-i.e. <code>1//-10 = -1</code></li>
+<li>Example: <code>7//2=3</code></li>
+</ul>
+</li>
+<li>Exponentiation $**$<ul>
+<li>Example 1: <code>3**2 = 9</code> is computing $3^2 = 9$</li>
+<li>Example 2: <code>4**.5 = 2</code> is computing $4^{\frac{1}{2}} = \sqrt{4} = 2$</li>
+</ul>
+</li>
+<li>##  Recall that you can double click on this cell to see how these expressions are created using MathJax</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Functions">Functions<a class="anchor-link" href="#Functions">&#182;</a></h1><ul>
+<li>In Python, a function is a a block of code that takes an input (potentially empty) and returns an output (also potentially empty)</li>
+<li>Function blocks begin with the keyword <code>def</code> followed by the function name and parentheses  <code>( ):</code> followed by a colon.</li>
+<li>Any input parameters or arguments should be placed within these parentheses. You can also define parameters inside these parentheses.</li>
+<li>The first statement of a function can be an optional statement - the documentation string of the function or docstring.</li>
+<li>The code block within every function starts with a colon (:) and is indented.</li>
+<li>The statement return [expression] exits a function, optionally passing back an expression to the caller. A return statement with no arguments is the same as return None.</li>
+<li>Source: <a href="https://www.tutorialspoint.com/python/python_functions.htm">https://www.tutorialspoint.com/python/python_functions.htm</a></li>
+<li>Notice that this is different from what a mathematical function is! </li>
+<li>That said, we can use python functions to build mathematical functions!</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Mathematical-Functions">Mathematical Functions<a class="anchor-link" href="#Mathematical-Functions">&#182;</a></h1><ul>
+<li>A function is a mathematical relation between a set of inputs and a set of outputs were each input is associated to exactly 1 output</li>
+<li>Example: $f:\mathbb{R} \rightarrow \mathbb{R}$, $$f(x)=x^2 +1$$</li>
+<li>Non Example:    , $$y= \pm \sqrt{x}$$<ul>
+<li>You might have heard the expression "vertical line test" in the past. We explore this graphically in the coming days </li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Arguments: x -- an int or a float</span>
+<span class="sd">    Computes $x^2 + 1$ </span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">x</span> <span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">1</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+</div></section></section><section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;f(3) = &quot;</span><span class="p">,</span> <span class="n">f</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;f(4) = &quot;</span><span class="p">,</span> <span class="n">f</span><span class="p">(</span><span class="mi">4</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;f(5) = &quot;</span><span class="p">,</span> <span class="n">f</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>f(3) =  10
+f(4) =  17
+f(5) =  26
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section></section><section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># More on this later!</span>
+<span class="k">def</span> <span class="nf">print_f</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="n">f_x</span> <span class="o">=</span> <span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;f(</span><span class="si">{x}</span><span class="s2">) = </span><span class="si">{f_x}</span><span class="s2">&quot;</span><span class="p">)</span>
+    
+<span class="n">print_f</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>f(4) = 17
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
