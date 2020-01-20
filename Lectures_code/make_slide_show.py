@@ -27,7 +27,7 @@ if __name__ == '__main__':
     lectures = sorted([i for i in os.listdir("../Lecture_slides/") if i.endswith(".html")])
     lecture_info = ''
     for i in range(len(lectures)):
-        lecture_info += lecture_base.format(num=i+1, slide=lectures[i])
+        lecture_info += lecture_base.format(num=i, slide=lectures[i])
     z_new = z[0]  + slide_comment + '\n\n' + lecture_info + '\n' + slide_comment + z[2]
     with open(README, 'w+') as f:
         f.write(z_new)

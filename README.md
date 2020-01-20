@@ -21,7 +21,7 @@ Any computer with an internet connection will suffice! Students are advised to h
 
 [comment]:LECTURE_SLIDES
 
-## [Lecture 1:](/Lecture_slides/Lecture_0.slides.html) 
+## [Lecture 0:](/Lecture_slides/Lecture_0.slides.html) 
 
 [comment]:LECTURE_SLIDES
 
